@@ -1,15 +1,17 @@
-# 123-XXXX-NLP-Assignment2
+# i23-2583-NLP-Assignment2
 
 NLP Assignment 2 — Neural NLP Pipeline built on BBC Urdu news data.
 Course: CS-4063 | FAST NUCES
 
 ## Structure
-├── data/               # CoNLL annotation files (POS & NER)
-├── embeddings/         # TF-IDF, PPMI, Word2Vec matrices
-├── models/             # Saved PyTorch model weights
-├── 123-XXXX_Assignment2_DS-X.ipynb
-└── report.pdf
 
+| Path | Contents |
+|------|----------|
+| `data/` | `pos_train.conll`, `pos_test.conll`, `ner_train.conll`, `ner_test.conll` |
+| `embeddings/` | `tfidf_matrix.npy`, `ppmi_matrix.npy`, `embeddings_w2v.npy`, `word2idx.json` |
+| `models/` | `bilstm_pos.pt`, `bilstm_ner.pt`, `transformer_cls.pt` |
+| `i23-232583_Assignment2_DS-B.ipynb` | Main notebook (all cells executed) |
+| `report.pdf` | Written report |
 ## How to Reproduce
 
 1. **Install dependencies**
